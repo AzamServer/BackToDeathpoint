@@ -20,7 +20,7 @@ ___
 Patch Notes:
 
 - Version 1.0
-  - 15th January 2021
+  - 29th January 2021
   - Features:
     - Allow plugin to teleport player back to death location when correct command issued
     - Allow plugins to add and recognize new perms
