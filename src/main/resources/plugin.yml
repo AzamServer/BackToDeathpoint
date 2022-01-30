@@ -1,0 +1,18 @@
+name: BackToDeathpoint
+version: '${project.version}'
+main: com.azamserver.backtodeathpoint.Main
+api-version: 1.18
+authors: [ Ali ]
+description: Enables players to use a command that teleports them back to where they died
+website: https://card.azamserver.com/
+commands:
+  back:
+    description: Issuing command will allow player to teleport back to where they died if they have to correct perms to do so
+    usage: For help, please issue the command "/back help"
+permissions:
+  back.*:
+    description: Gives access to /back command
+    default: op
+    children:
+      back.back: true
+      back.helpMenu: true
